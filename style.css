@@ -1,0 +1,336 @@
+/* navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: viga;
+    font-size: 32px;
+}
+
+.nav-link {
+    font-display:
+}
+
+/* button */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.tombol2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.tombol2 .tomboll {
+    width: 100px;
+    border-radius: 40px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(img/jumbotron-bg2.jpg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+
+}
+
+.jumbotron .display-4 {
+    color: #F42644;
+    text-align: center;
+    font-weight: 400;
+    margin-top: -10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-size: 40px;
+}
+
+.jumbotron .lead {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .lead1 {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 150px;
+}
+
+.jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+
+}
+
+.biography {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.biography h4 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 16px;
+    color: #F42644;
+    margin-bottom: 0;
+}
+
+.biography h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+    margin-top: 0p;
+}
+
+.biography h5 {
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 80;
+}
+
+.skill {
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+.skill .job {
+    margin-right: 20px;
+}
+
+.skill h3 {
+    margin-bottom: 25px;
+    font-size: 17.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.skill h5 {
+
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.skill .position {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.skill .abilities {
+    font-size: 13px;
+
+
+}
+
+.progress {
+    height: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .4s;
+}
+
+@keyframes animateBar {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+li {
+    list-style-type: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-left: -40px;
+}
+
+.skill .company,
+.sekolah {
+    color: #F42644;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.skill .sekolah a {
+
+    color: #F42644;
+}
+
+
+.portfolio {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.portfolio .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.portfolio h4 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.portfolio a {
+    color: #222;
+}
+
+.footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footcol {
+    background-color: #222;
+    margin-top: 50px;
+}
+
+.footer h4 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 16px;
+    color: #F42644;
+    margin-bottom: 0;
+}
+
+.footer h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    margin-top: 0p;
+}
+
+.footer h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-weight: 80;
+}
+
+
+.footer a,
+p {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 8px;
+}
+
+@media (min-width: 992px) {
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 10px;
+    }
+
+    .nav-link:hover::after {
+
+        content: "";
+        display: block;
+        border-bottom: 3px solid #F42644;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 50px;
+    }
+
+    .skill {
+        text-align: left;
+    }
+
+    .skill .abilities {
+        font-size: 13px;
+        margin-left: 0px;
+
+    }
+
+    .portfolio {
+        margin-top: 50px;
+    }
+
+    .portfolio .portfolio1 {
+        margin-right: 50px;
+    }
+
+    .portfolio .portfolio2 {
+        margin-right: 50px;
+    }
+}
